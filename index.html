@@ -1,0 +1,765 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  
+  <!-- Primary Meta Tags -->
+  <!-- TODO: Replace with your paper title and author names -->
+  <meta name="title" content="PAPER_TITLE - AUTHOR_NAMES">
+  <!-- TODO: Write a compelling 150-160 character description of your research -->
+  <meta name="description" content="BRIEF_DESCRIPTION_OF_YOUR_RESEARCH_CONTRIBUTION_AND_FINDINGS">
+  <!-- TODO: Add 5-10 relevant keywords for your research area -->
+  <meta name="keywords" content="KEYWORD1, KEYWORD2, KEYWORD3, machine learning, computer vision, AI">
+  <!-- TODO: List all authors -->
+  <meta name="author" content="FIRST_AUTHOR_NAME, SECOND_AUTHOR_NAME">
+  <meta name="robots" content="index, follow">
+  <meta name="language" content="English">
+  
+  <!-- Open Graph / Facebook -->
+  <meta property="og:type" content="article">
+  <!-- TODO: Replace with your institution or lab name -->
+  <meta property="og:site_name" content="INSTITUTION_OR_LAB_NAME">
+  <!-- TODO: Same as paper title above -->
+  <meta property="og:title" content="PAPER_TITLE">
+  <!-- TODO: Same as description above -->
+  <meta property="og:description" content="BRIEF_DESCRIPTION_OF_YOUR_RESEARCH_CONTRIBUTION_AND_FINDINGS">
+  <!-- TODO: Replace with your actual website URL -->
+  <meta property="og:url" content="https://YOUR_DOMAIN.com/YOUR_PROJECT_PAGE">
+  <!-- TODO: Create a 1200x630px preview image and update path -->
+  <meta property="og:image" content="https://YOUR_DOMAIN.com/static/images/social_preview.png">
+  <meta property="og:image:width" content="1200">
+  <meta property="og:image:height" content="630">
+  <meta property="og:image:alt" content="PAPER_TITLE - Research Preview">
+  <meta property="article:published_time" content="2024-01-01T00:00:00.000Z">
+  <meta property="article:author" content="FIRST_AUTHOR_NAME">
+  <meta property="article:section" content="Research">
+  <meta property="article:tag" content="KEYWORD1">
+  <meta property="article:tag" content="KEYWORD2">
+
+  <!-- Twitter -->
+  <meta name="twitter:card" content="summary_large_image">
+  <!-- TODO: Replace with your lab/institution Twitter handle -->
+  <meta name="twitter:site" content="@YOUR_TWITTER_HANDLE">
+  <!-- TODO: Replace with first author's Twitter handle -->
+  <meta name="twitter:creator" content="@AUTHOR_TWITTER_HANDLE">
+  <!-- TODO: Same as paper title above -->
+  <meta name="twitter:title" content="PAPER_TITLE">
+  <!-- TODO: Same as description above -->
+  <meta name="twitter:description" content="BRIEF_DESCRIPTION_OF_YOUR_RESEARCH_CONTRIBUTION_AND_FINDINGS">
+  <!-- TODO: Same as social preview image above -->
+  <meta name="twitter:image" content="https://YOUR_DOMAIN.com/static/images/social_preview.png">
+  <meta name="twitter:image:alt" content="PAPER_TITLE - Research Preview">
+
+  <!-- Academic/Research Specific -->
+  <meta name="citation_title" content="PAPER_TITLE">
+  <meta name="citation_author" content="FIRST_AUTHOR_LAST, FIRST_AUTHOR_FIRST">
+  <meta name="citation_author" content="SECOND_AUTHOR_LAST, SECOND_AUTHOR_FIRST">
+  <meta name="citation_publication_date" content="2024">
+  <meta name="citation_conference_title" content="CONFERENCE_NAME">
+  <meta name="citation_pdf_url" content="https://YOUR_DOMAIN.com/static/pdfs/paper.pdf">
+  
+  <!-- Additional SEO -->
+  <meta name="theme-color" content="#2563eb">
+  <meta name="msapplication-TileColor" content="#2563eb">
+  <meta name="apple-mobile-web-app-capable" content="yes">
+  <meta name="apple-mobile-web-app-status-bar-style" content="default">
+  
+  <!-- Preconnect for performance -->
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link rel="preconnect" href="https://ajax.googleapis.com">
+  <link rel="preconnect" href="https://documentcloud.adobe.com">
+  <link rel="preconnect" href="https://cdn.jsdelivr.net">
+
+
+  <!-- TODO: Replace with your paper title and authors -->
+  <title>PAPER_TITLE - AUTHOR_NAMES | Academic Research</title>
+  
+  <!-- Favicon and App Icons -->
+  <link rel="icon" type="image/x-icon" href="static/images/favicon.ico">
+  <link rel="apple-touch-icon" href="static/images/favicon.ico">
+  
+  <!-- Critical CSS - Load synchronously -->
+  <link rel="stylesheet" href="static/css/bulma.min.css">
+  <link rel="stylesheet" href="static/css/index.css">
+  
+  <!-- Non-critical CSS - Load asynchronously -->
+  <link rel="preload" href="static/css/bulma-carousel.min.css" as="style" onload="this.onload=null;this.rel='stylesheet'">
+  <link rel="preload" href="static/css/bulma-slider.min.css" as="style" onload="this.onload=null;this.rel='stylesheet'">
+  <link rel="preload" href="static/css/fontawesome.all.min.css" as="style" onload="this.onload=null;this.rel='stylesheet'">
+  <link rel="preload" href="https://cdn.jsdelivr.net/gh/jpswalsh/academicons@1/css/academicons.min.css" as="style" onload="this.onload=null;this.rel='stylesheet'">
+  
+  <!-- Fallback for browsers that don't support preload -->
+  <noscript>
+    <link rel="stylesheet" href="static/css/bulma-carousel.min.css">
+    <link rel="stylesheet" href="static/css/bulma-slider.min.css">
+    <link rel="stylesheet" href="static/css/fontawesome.all.min.css">
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/gh/jpswalsh/academicons@1/css/academicons.min.css">
+  </noscript>
+  
+  <!-- Fonts - Optimized loading -->
+  <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700;800&display=swap" rel="stylesheet">
+  
+  <!-- Defer non-critical JavaScript -->
+  <script defer src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
+  <script defer src="https://documentcloud.adobe.com/view-sdk/main.js"></script>
+  <script defer src="static/js/fontawesome.all.min.js"></script>
+  <script defer src="static/js/bulma-carousel.min.js"></script>
+  <script defer src="static/js/bulma-slider.min.js"></script>
+  <script defer src="static/js/index.js"></script>
+  
+  <!-- Structured Data for Academic Papers -->
+  <script type="application/ld+json">
+  {
+    "@context": "https://schema.org",
+    "@type": "ScholarlyArticle",
+    "headline": "PAPER_TITLE",
+    "description": "BRIEF_DESCRIPTION_OF_YOUR_RESEARCH_CONTRIBUTION_AND_FINDINGS",
+    "author": [
+      {
+        "@type": "Person",
+        "name": "FIRST_AUTHOR_NAME",
+        "affiliation": {
+          "@type": "Organization",
+          "name": "INSTITUTION_NAME"
+        }
+      },
+      {
+        "@type": "Person",
+        "name": "SECOND_AUTHOR_NAME",
+        "affiliation": {
+          "@type": "Organization",
+          "name": "INSTITUTION_NAME"
+        }
+      }
+    ],
+    "datePublished": "2024-01-01",
+    "publisher": {
+      "@type": "Organization",
+      "name": "CONFERENCE_OR_JOURNAL_NAME"
+    },
+    "url": "https://YOUR_DOMAIN.com/YOUR_PROJECT_PAGE",
+    "image": "https://YOUR_DOMAIN.com/static/images/social_preview.png",
+    "keywords": ["KEYWORD1", "KEYWORD2", "KEYWORD3", "machine learning", "computer vision"],
+    "abstract": "FULL_ABSTRACT_TEXT_HERE",
+    "citation": "BIBTEX_CITATION_HERE",
+    "isAccessibleForFree": true,
+    "license": "https://creativecommons.org/licenses/by/4.0/",
+    "mainEntity": {
+      "@type": "WebPage",
+      "@id": "https://YOUR_DOMAIN.com/YOUR_PROJECT_PAGE"
+    },
+    "about": [
+      {
+        "@type": "Thing",
+        "name": "RESEARCH_AREA_1"
+      },
+      {
+        "@type": "Thing", 
+        "name": "RESEARCH_AREA_2"
+      }
+    ]
+  }
+  </script>
+  
+  <!-- Website/Organization Structured Data -->
+  <script type="application/ld+json">
+  {
+    "@context": "https://schema.org",
+    "@type": "Organization",
+    "name": "INSTITUTION_OR_LAB_NAME",
+    "url": "https://YOUR_INSTITUTION_WEBSITE.com",
+    "logo": "https://YOUR_DOMAIN.com/static/images/favicon.ico",
+    "sameAs": [
+      "https://twitter.com/YOUR_TWITTER_HANDLE",
+      "https://github.com/YOUR_GITHUB_USERNAME"
+    ]
+  }
+  </script>
+</head>
+<body>
+
+
+  <!-- Scroll to Top Button -->
+  <button class="scroll-to-top" onclick="scrollToTop()" title="Scroll to top" aria-label="Scroll to top">
+    <i class="fas fa-chevron-up"></i>
+  </button>
+
+  <main id="main-content">
+  <!-- Hero Section with Background Video -->
+  <section class="hero has-background-video">
+    <!-- Background Video -->
+    <div class="hero-video-wrapper">
+      <!-- TODO: Replace with your background video file -->
+      <!-- For setup instructions, see BACKGROUND_VIDEO_SETUP.md -->
+      <!-- You can use banner_video.mp4 as a temporary placeholder or create your own -->
+      <video class="hero-background-video" autoplay muted loop playsinline preload="auto">
+        <source src="static/videos/teaser.mp4" type="video/mp4">
+        <!-- Fallback: Browsers will show a dark background if video doesn't load -->
+      </video>
+    </div>
+
+    <div class="hero-body">
+      <div class="container is-max-desktop">
+        <div class="columns is-centered">
+          <div class="column has-text-centered">
+            <!-- TODO: Replace with your paper title -->
+                  <h1 class="title publication-title" style="font-size: 100px; font-weight: bold;">DexImit</h1>
+                  <h1 class="title publication-title" style="font-size: 50px; font-weight: bold; 
+                      white-space: nowrap; /* 核心：强制文字不换行 */
+                      width: 100%; /* 让标题宽度占满父容器 */
+                      display: inline-block; /* 适配宽度100%，避免被压缩 */
+                      text-align: center; /* 可选：居中显示，保持美观 */
+                  ">Learning Bimanual Dexterous Manipulation <br> from Monocular Human Videos</h1>
+                  <div class="is-size-5 publication-authors">
+                    <span class="author-block">
+                      <a href="JUNCHENG_MU_LINK" target="_blank">Juncheng Mu</a><sup>1,2,*</sup><span class="author-logo"><img src="static/images/logos/shanghai_ai_lab.webp" alt="Shanghai AI Lab" title="Shanghai AI Laboratory"></span><span class="author-logo"><img src="static/images/logos/tsinghua.png" alt="Tsinghua" title="Tsinghua University"></span>,</span>
+                    <span class="author-block">
+                      <a href="SIZHE_YANG_LINK" target="_blank">Sizhe Yang</a><sup>1,3,*</sup><span class="author-logo"><img src="static/images/logos/shanghai_ai_lab.webp" alt="Shanghai AI Lab" title="Shanghai AI Laboratory"></span><span class="author-logo"><img src="static/images/logos/cuhk.png" alt="CUHK" title="The Chinese University of Hong Kong"></span>,</span>
+                    <span class="author-block">
+                      <a href="YIMING_BAO_LINK" target="_blank">Yiming Bao</a><sup>2</sup><span class="author-logo"><img src="static/images/logos/tsinghua.png" alt="Tsinghua" title="Tsinghua University"></span>,</span>
+                    <span class="author-block">
+                      <a href="HOJIN_BAE_LINK" target="_blank">Hojin Bae</a><sup>2</sup><span class="author-logo"><img src="static/images/logos/tsinghua.png" alt="Tsinghua" title="Tsinghua University"></span>,</span>
+                    <span class="author-block">
+                      <a href="TIANMING_WEI_LINK" target="_blank">Tianming Wei</a><sup>2</sup><span class="author-logo"><img src="static/images/logos/tsinghua.png" alt="Tsinghua" title="Tsinghua University"></span>,</span>
+                    <br>
+                    <span class="author-block">
+                      <a href="LINNING_XU_LINK" target="_blank">Linning Xu</a><sup>1</sup><span class="author-logo"><img src="static/images/logos/shanghai_ai_lab.webp" alt="Shanghai AI Lab" title="Shanghai AI Laboratory"></span>,</span>
+                    <span class="author-block">
+                      <a href="BOYI_LI_LINK" target="_blank">Boyi Li</a><sup>4,†</sup><span class="author-logo"><img src="static/images/logos/nvidia.png" alt="NVIDIA" title="NVIDIA"></span>,</span>
+                    <span class="author-block">
+                      <a href="HUAZHE_XU_LINK" target="_blank">Huazhe Xu</a><sup>2,†</sup><span class="author-logo"><img src="static/images/logos/tsinghua.png" alt="Tsinghua" title="Tsinghua University"></span>,</span>
+                    <span class="author-block">
+                      <a href="JIANGMIAO_PANG_LINK" target="_blank">Jiangmiao Pang</a><sup>1,†</sup><span class="author-logo"><img src="static/images/logos/shanghai_ai_lab.webp" alt="Shanghai AI Lab" title="Shanghai AI Laboratory"></span>
+                    </span>
+                  </div>
+
+                  <div class="author-affiliation-section">
+                    <div class="affiliation-list">
+                      <div class="affiliation-item">
+                        <img src="static/images/logos/shanghai_ai_lab.webp" alt="Shanghai AI Lab" class="affiliation-logo">
+                        <span><sup>1</sup>Shanghai AI Laboratory</span>
+                      </div>
+                      <div class="affiliation-item">
+                        <img src="static/images/logos/tsinghua.png" alt="Tsinghua" class="affiliation-logo">
+                        <span><sup>2</sup>Tsinghua University</span>
+                      </div>
+                      <div class="affiliation-item">
+                        <img src="static/images/logos/cuhk.png" alt="CUHK" class="affiliation-logo">
+                        <span><sup>3</sup>The Chinese University of Hong Kong</span>
+                      </div>
+                      <div class="affiliation-item">
+                        <img src="static/images/logos/nvidia.png" alt="UC Berkeley" class="affiliation-logo">
+                        <span><sup>4</sup>NVIDIA</span>
+                      </div>
+                    </div>
+                    <div class="author-notes has-text-centered">
+                      <span><sup>*</sup>Equal contribution</span>
+                      <span><sup>†</sup>Corresponding author</span>
+                    </div>
+                  </div>
+
+                  <div class="column has-text-centered">
+                    <div class="publication-links">
+                         <!-- TODO: Update with your arXiv paper ID -->
+                      <span class="link-block">
+                        <a href="https://arxiv.org/pdf/<ARXIV PAPER ID>.pdf" target="_blank"
+                        class="external-link button is-normal is-rounded is-dark">
+                        <span class="icon">
+                          <i class="fas fa-file-pdf"></i>
+                        </span>
+                        <span>Paper</span>
+                      </a>
+                    </span>
+
+                  <!-- TODO: Replace with your GitHub repository URL -->
+                  <span class="link-block">
+                    <a href="https://github.com/YOUR REPO HERE" target="_blank"
+                    class="external-link button is-normal is-rounded is-dark">
+                    <span class="icon">
+                      <i class="fab fa-github"></i>
+                    </span>
+                    <span>Code (comming soon)</span>
+                  </a>
+                </span>
+
+                <!-- TODO: Update with your arXiv paper ID -->
+                <span class="link-block">
+                  <a href="https://arxiv.org/abs/<ARXIV PAPER ID>" target="_blank"
+                  class="external-link button is-normal is-rounded is-dark">
+                  <span class="icon">
+                    <i class="ai ai-arxiv"></i>
+                  </span>
+                  <span>arXiv</span>
+                </a>
+              </span>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+
+    <!-- Scroll Indicator -->
+    <div class="scroll-indicator" onclick="document.querySelector('.teaser').scrollIntoView({behavior: 'smooth'})">
+      <span class="scroll-text">Scroll</span>
+      <div class="scroll-icon"></div>
+    </div>
+  </div>
+</section>
+
+
+<!-- Teaser video-->
+<section class="hero teaser">
+  <div class="container is-max-desktop">
+    <div class="hero-body">
+      <!-- TODO: Replace with your teaser video -->
+      <video poster="" id="tree" autoplay controls muted loop height="100%" preload="metadata">
+        <!-- TODO: Add your video file path here -->
+        <source src="static/videos/demo.mp4" type="video/mp4">
+      </video>
+      <!-- TODO: Replace with your video description -->
+      <div class="content has-text-justified">
+        <!-- TODO: Replace with your paper abstract -->
+        <p>
+          We introduce DexImit, a framework for learning dexterous manipulation directly from videos. DexImit leverages generated or in-the-wild videos to synthesize physically plausible demonstrations. Moreover, DexImit employs comprehensive data augmentation to achieve diverse generalization, facilitating policy training for zero-shot real-world deployment.
+        </p>
+      </div>
+      <!-- <h2 class="subtitle">
+        We introduce DexImit, a framework for learning dexterous manipulation directly from videos. DexImit leverages generated or in-the-wild videos to synthesize physically plausible demonstrations, including challenging tool-using, long-horizon, and fine-grained tasks. Moreover, DexImit employs comprehensive data augmentation to achieve diverse generalization, facilitating policy training for zero-shot real-world deployment.
+      </h2> -->
+    </div>
+  </div>
+</section>
+<!-- End teaser video -->
+
+<!-- Paper abstract -->
+<section class="section hero is-light">
+  <div class="container is-max-desktop">
+    <div class="columns is-centered has-text-centered">
+      <div class="column is-four-fifths">
+        <h2 class="title is-3">Abstract</h2>
+        <div class="content has-text-justified">
+          <!-- TODO: Replace with your paper abstract -->
+          <p>
+            Data scarcity fundamentally limits the generalization of bimanual dexterous manipulation, as real-world data collection for dexterous hands is expensive and labor-intensive.
+            Human manipulation videos, as a direct carrier of manipulation knowledge, offer significant potential for scaling up robot learning.
+            However, the substantial embodiment gap between human hands and robotic dexterous hands makes direct pretraining from human videos extremely challenging.
+            To bridge this gap and unleash the potential of large-scale human manipulation video data, we propose DexImit, an automated framework that converts monocular human manipulation videos into physically plausible robot data, without any additional information. 
+            DexImit employs a four-stage generation pipeline:
+            (1) reconstructing hand-object interactions from arbitrary viewpoints with near-metric scale;
+            (2) performing subtask decomposition and bimanual scheduling;
+            (3) synthesizing robot trajectories consistent with the demonstrated interactions;
+            (4) comprehensive data augmentation for zero-shot real-world deployment.
+            Building on these designs, DexImit can generate large-scale robot data based on human videos, either from the Internet or video generation models.
+            DexImit is capable of handling diverse manipulation tasks, including tool use (e.g., cutting an apple), long-horizon tasks (e.g., making a beverage), and fine-grained manipulations (e.g., stacking cups).
+          </p>
+        </div>
+      </div>
+    </div>
+  </div>
+</section>
+<!-- End paper abstract -->
+
+
+<!-- Image carousel -->
+<section class="hero is-small">
+  <div class="hero-body">
+    <div class="container">
+      <div id="results-carousel" class="carousel results-carousel">
+       <div class="item">
+        <!-- TODO: Replace with your research result images -->
+        <img src="static/images/pipeline.png" alt="First research result visualization" loading="lazy"/>
+        <!-- TODO: Replace with description of this result -->
+        <h2 class="subtitle">
+          Overview of DexImit: We adopt a four-stage paradigm: 
+          <span style="color: #f5a623;">Reconstruction</span>-
+          <span style="color: #8cc050;">Scheduling</span>-
+          <span style="color: #9b59b6;">Action</span>-
+          <span style="color: #3498db;">Augmentation</span>. 
+          (1) Reconstruct 4D hand-object interactions and transform them to a unified world frame. 
+          (2) Decompose the manipulation process into subtasks and schedule bimanual actions for long-horizon tasks using an 
+          <i>Action-Centric Scheduling Algorithm</i>. 
+          (3) Generate robot trajectories via grasp synthesis and motion planning. 
+          (4) Augment the resulting source data comprehensively to enable robust policy learning.
+        </h2>
+      </div>
+      <div class="item">
+        <!-- Your image here -->
+        <img src="static/images/teaser.png" alt="Second research result visualization" loading="lazy"/>
+        <h2 class="subtitle">
+          We introduce DexImit, a framework for learning dexterous manipulation directly from videos. DexImit leverages
+          generated or in-the-wild videos to synthesize physically plausible demonstrations, including challenging tool-using, long-horizon,
+          and fine-grained tasks. The gallery highlights the breadth of manipulation tasks generated by DexImit.
+        </h2>
+      </div>
+      <div class="item">
+        <!-- Your image here -->
+        <img src="static/images/qualitative.png" alt="Third research result visualization" loading="lazy"/>
+        <h2 class="subtitle has-text-centered">
+          DexImit can generate physically plausible data for long-horizon and fine-grained real-world tasks.
+       </h2>
+     </div>
+     <div class="item">
+      <!-- Your image here -->
+      <img src="static/images/grasp.png" alt="Fourth research result visualization" loading="lazy"/>
+      <h2 class="subtitle has-text-centered">
+        Visualization of the synthesized actions.
+      </h2>
+    </div>
+  </div>
+</div>
+</div>
+</section>
+<!-- End image carousel -->
+
+
+
+
+
+<!-- Sim2Real Results -->
+<section class="hero is-small">
+  <div class="hero-body">
+    <div class="container">
+      <h2 class="title is-3 has-text-centered">Sim2Real Results: Learning from Human Videos</h2>
+      <p class="subtitle has-text-centered" style="margin-bottom: 2rem;">
+        Side-by-side comparison of human manipulation videos (left) and corresponding policies (right)
+      </p>
+
+      <!-- Row 1: Tasks 1 & 2 -->
+      <div class="columns is-multiline">
+        <!-- Task 1: Apple Manipulation -->
+        <div class="column is-half">
+          <div class="video-comparison-card">
+            <h3 class="title is-6 has-text-centered">Place Apple</h3>
+            <div class="video-pair">
+              <div class="video-container">
+                <p class="video-label">Human</p>
+                <video controls muted loop playsinline preload="metadata">
+                  <source src="static/videos/sim2real/human-apple/process.mp4" type="video/mp4">
+                </video>
+              </div>
+              <div class="video-container">
+                <p class="video-label">Robot</p>
+                <video controls muted loop playsinline preload="metadata">
+                  <source src="static/videos/sim2real/robo-apple/process.mp4" type="video/mp4">
+                </video>
+              </div>
+            </div>
+          </div>
+        </div>
+
+        <!-- Task 2: Bimanual Manipulation -->
+        <div class="column is-half">
+          <div class="video-comparison-card">
+            <h3 class="title is-6 has-text-centered">Place Potato&Pepper</h3>
+            <div class="video-pair">
+              <div class="video-container">
+                <p class="video-label">Human</p>
+                <video controls muted loop playsinline preload="metadata">
+                  <source src="static/videos/sim2real/human-biarm/process.mp4" type="video/mp4">
+                </video>
+              </div>
+              <div class="video-container">
+                <p class="video-label">Robot</p>
+                <video controls muted loop playsinline preload="metadata">
+                  <source src="static/videos/sim2real/robo-biarm/process.mp4" type="video/mp4">
+                </video>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+
+      <!-- Row 2: Tasks 3 & 4 -->
+      <div class="columns is-multiline">
+        <!-- Task 3: Pot Manipulation -->
+        <div class="column is-half">
+          <div class="video-comparison-card">
+            <h3 class="title is-6 has-text-centered">Place Pot</h3>
+            <div class="video-pair">
+              <div class="video-container">
+                <p class="video-label">Human</p>
+                <video controls muted loop playsinline preload="metadata">
+                  <source src="static/videos/sim2real/human-pot/process.mp4" type="video/mp4">
+                </video>
+              </div>
+              <div class="video-container">
+                <p class="video-label">Robot</p>
+                <video controls muted loop playsinline preload="metadata">
+                  <source src="static/videos/sim2real/robo-pot/process.mp4" type="video/mp4">
+                </video>
+              </div>
+            </div>
+          </div>
+        </div>
+
+        <!-- Task 4: Pouring -->
+        <div class="column is-half">
+          <div class="video-comparison-card">
+            <h3 class="title is-6 has-text-centered">Pour Water</h3>
+            <div class="video-pair">
+              <div class="video-container">
+                <p class="video-label">Human</p>
+                <video controls muted loop playsinline preload="metadata">
+                  <source src="static/videos/sim2real/human-pour/process.mp4" type="video/mp4">
+                </video>
+              </div>
+              <div class="video-container">
+                <p class="video-label">Robot</p>
+                <video controls muted loop playsinline preload="metadata">
+                  <source src="static/videos/sim2real/robo-pour/process.mp4" type="video/mp4">
+                </video>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+
+    </div>
+  </div>
+</section>
+<!-- End Sim2Real Results -->
+
+
+<!-- Long-Horizon Tasks Carousel -->
+<section class="hero is-small">
+  <div class="hero-body">
+    <div class="container">
+      <h2 class="title is-3 has-text-centered">Long-Horizon Tasks Data</h2>
+      <div id="long-horizon-carousel" class="carousel results-carousel">
+
+        <!-- Task 1: Cook -->
+        <div class="item">
+          <video controls muted loop playsinline preload="metadata" style="width: 100%; height: auto;">
+            <source src="static/videos/real_world/cook/cook-1.mp4" type="video/mp4">
+          </video>
+          <h2 class="subtitle has-text-centered" style="margin-top: 1rem;">
+            Cook
+          </h2>
+        </div>
+
+        <!-- Task 2: Cut Apple -->
+        <div class="item">
+          <video controls muted loop playsinline preload="metadata" style="width: 100%; height: auto;">
+            <source src="static/videos/real_world/Cut-Apple/Cut-Apple-1.mp4" type="video/mp4">
+          </video>
+          <h2 class="subtitle has-text-centered" style="margin-top: 1rem;">
+            Cut-Apple
+          </h2>
+        </div>
+
+        <!-- Task 3: Make Beverage -->
+        <div class="item">
+          <video controls muted loop playsinline preload="metadata" style="width: 100%; height: auto;">
+            <source src="static/videos/real_world/Make-Beverage/Make-Beverage-1.mp4" type="video/mp4">
+          </video>
+          <h2 class="subtitle has-text-centered" style="margin-top: 1rem;">
+            Make-Beverage
+          </h2>
+        </div>
+
+        <!-- Task 4: Stack Cup -->
+        <div class="item">
+          <video controls muted loop playsinline preload="metadata" style="width: 100%; height: auto;">
+            <source src="static/videos/real_world/Stack-Cup/Stack-Cup-1.mp4" type="video/mp4">
+          </video>
+          <h2 class="subtitle has-text-centered" style="margin-top: 1rem;">
+            Stack-Cup
+          </h2>
+        </div>
+
+      </div>
+    </div>
+  </div>
+</section>
+<!-- End Long-Horizon Tasks Carousel -->
+
+
+
+
+<!-- Human and Robot Video Comparison -->
+<section class="hero is-small">
+  <div class="hero-body">
+    <div class="container">
+      <h2 class="title is-3 has-text-centered">Simulation Results: Human Demonstrations and Generated Robot Data</h2>
+      <p class="subtitle has-text-centered" style="margin-bottom: 2rem;">
+        Side-by-side comparison of human manipulation videos (left) and corresponding robot trajectories (right)
+      </p>
+
+      <!-- Row 1: Tasks 1 & 2 -->
+      <div class="columns is-multiline">
+        <!-- Task 1: Bimanual Manipulation -->
+        <div class="column is-half">
+          <div class="video-comparison-card">
+            <h3 class="title is-6 has-text-centered">Bimanual Pick&Place</h3>
+            <div class="video-pair">
+              <div class="video-container">
+                <p class="video-label">Human</p>
+                <video controls muted loop playsinline preload="metadata">
+                  <source src="static/videos/sim/human/biarm_0440.mp4" type="video/mp4">
+                </video>
+              </div>
+              <div class="video-container">
+                <p class="video-label">Robot</p>
+                <video controls muted loop playsinline preload="metadata">
+                  <source src="static/videos/sim/robotics/data_render_0440.mp4" type="video/mp4">
+                </video>
+              </div>
+            </div>
+          </div>
+        </div>
+
+        <!-- Task 2: Grapefruit Manipulation -->
+        <div class="column is-half">
+          <div class="video-comparison-card">
+            <h3 class="title is-6 has-text-centered">Bimanual Grasping</h3>
+            <div class="video-pair">
+              <div class="video-container">
+                <p class="video-label">Human</p>
+                <video controls muted loop playsinline preload="metadata">
+                  <source src="static/videos/sim/human/Grapefruit_0182.mp4" type="video/mp4">
+                </video>
+              </div>
+              <div class="video-container">
+                <p class="video-label">Robot</p>
+                <video controls muted loop playsinline preload="metadata">
+                  <source src="static/videos/sim/robotics/data_render_0182.mp4" type="video/mp4">
+                </video>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+
+      <!-- Row 2: Tasks 3 & 4 -->
+      <div class="columns is-multiline">
+        <!-- Task 5: Cup Placement -->
+        <div class="column is-half">
+          <div class="video-comparison-card">
+            <h3 class="title is-6 has-text-centered">Unimanual Pick&Place</h3>
+            <div class="video-pair">
+              <div class="video-container">
+                <p class="video-label">Human</p>
+                <video controls muted loop playsinline preload="metadata">
+                  <source src="static/videos/sim/human/put_cup.mp4" type="video/mp4">
+                </video>
+              </div>
+              <div class="video-container">
+                <p class="video-label">Robot</p>
+                <video controls muted loop playsinline preload="metadata">
+                  <source src="static/videos/sim/robotics/put_cup.mp4" type="video/mp4">
+                </video>
+              </div>
+            </div>
+          </div>
+        </div>
+      
+
+        <!-- Task 4: Pouring -->
+        <div class="column is-half">
+          <div class="video-comparison-card">
+            <h3 class="title is-6 has-text-centered">Pouring</h3>
+            <div class="video-pair">
+              <div class="video-container">
+                <p class="video-label">Human</p>
+                <video controls muted loop playsinline preload="metadata">
+                  <source src="static/videos/sim/human/pour.mp4" type="video/mp4">
+                </video>
+              </div>
+              <div class="video-container">
+                <p class="video-label">Robot</p>
+                <video controls muted loop playsinline preload="metadata">
+                  <source src="static/videos/sim/robotics/data_render_pour.mp4" type="video/mp4">
+                </video>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+
+      <!-- Row 3: Tasks 5 & 6 -->
+      
+
+        <div class="columns is-multiline">
+          <!-- Task 3: Pot Manipulation -->
+          <div class="column is-half">
+            <div class="video-comparison-card">
+              <h3 class="title is-6 has-text-centered">Long-Horizon 1</h3>
+              <div class="video-pair">
+                <div class="video-container">
+                  <p class="video-label">Human</p>
+                  <video controls muted loop playsinline preload="metadata">
+                    <source src="static/videos/sim/human/pot.mp4" type="video/mp4">
+                  </video>
+                </div>
+                <div class="video-container">
+                  <p class="video-label">Robot</p>
+                  <video controls muted loop playsinline preload="metadata">
+                    <source src="static/videos/sim/robotics/pot.mp4" type="video/mp4">
+                  </video>
+                </div>
+              </div>
+            </div>
+          </div>
+
+        <!-- Task 6: Stacking Cups -->
+        <div class="column is-half">
+          <div class="video-comparison-card">
+            <h3 class="title is-6 has-text-centered">Long-Horizon 2</h3>
+            <div class="video-pair">
+              <div class="video-container">
+                <p class="video-label">Human</p>
+                <video controls muted loop playsinline preload="metadata">
+                  <source src="static/videos/sim/human/stack_cups.mp4" type="video/mp4">
+                </video>
+              </div>
+              <div class="video-container">
+                <p class="video-label">Robot</p>
+                <video controls muted loop playsinline preload="metadata">
+                  <source src="static/videos/sim/robotics/data_render_six3.mp4" type="video/mp4">
+                </video>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+
+    </div>
+  </div>
+</section>
+<!-- End Human vs Robot Video Comparison -->
+
+
+<!--BibTex citation -->
+  <section class="section" id="BibTeX">
+    <div class="container is-max-desktop content">
+      <div class="bibtex-header">
+        <h2 class="title">BibTeX</h2>
+        <button class="copy-bibtex-btn" onclick="copyBibTeX()" title="Copy BibTeX to clipboard">
+          <i class="fas fa-copy"></i>
+          <span class="copy-text">Copy</span>
+        </button>
+      </div>
+      <pre id="bibtex-code"><code>
+        @article{
+          Mu2025DexImit,
+          title={DexImit: Learning Bimanual Dexterous Manipulation from Monocular Human Videos},
+          author={Juncheng Mu and Sizhe Yang and Yiming Bao and Hojin Bae and Tianming Wei and Linning Xu and Boyi Li and Huazhe Xu and Jiangmiao Pang},
+          journal={arXiv preprint},
+          year={2026},
+          url={https://arxiv.org/abs/xxxx.XXXXX}
+        }
+      </code></pre>
+    </div>
+</section>
+
+
+<!-- Statcounter tracking code -->
+  
+<!-- You can add a tracker to track page visits by creating an account at statcounter.com -->
+
+    <!-- End of Statcounter Code -->
+
+  </body>
+  </html>
