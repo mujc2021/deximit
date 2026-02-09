@@ -203,6 +203,13 @@ body {
     animation: fadeInUp 0.8s ease-out;
 }
 
+/* Extra large main project title */
+.max-title {
+  font-size: 6rem;
+}
+
+
+
 .publication-authors {
     animation: fadeInUp 0.8s ease-out 0.2s both;
 }
